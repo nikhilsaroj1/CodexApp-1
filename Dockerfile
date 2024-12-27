@@ -5,7 +5,7 @@ FROM tomcat:9-jdk11-openjdk
 RUN rm -rf /usr/local/tomcat/webapps/*
 
 # Copy your WAR file into Tomcat's webapps directory
-COPY codexapp.war /usr/local/tomcat/webapps/ROOT.war
+COPY Javaframeca2.war /usr/local/tomcat/webapps/ROOT.war
 
 # Expose port 8080, which is the default for Tomcat
 EXPOSE 8080
